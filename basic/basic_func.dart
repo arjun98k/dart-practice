@@ -15,4 +15,10 @@ void main(){
     return c;
   }
   print(addition(12, 98));
+
+  ((String name) =>
+  print(name))
+    ("arjun");
+
 }
+
