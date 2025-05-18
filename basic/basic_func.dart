@@ -20,5 +20,16 @@ void main(){
   print(name))
     ("arjun");
 
+  // Arrow function using operation list
+  var nums = [1 ,2,3];
+  var sq = nums.map((n) => n*n);
+  print(sq);
+
+  Function makeMultiplier(int factor) {
+    return (int number) => number * factor;
+  }
+ print(doubleIt(2));
+
 }
+var doubleIt = (int x) => x * 2; // lambda only
 
