@@ -4,5 +4,9 @@ void main(){
   num.add(16);
   print(num.contains(15));
   print(num.reversed);
+  print(num.remove(16));
+  for(int i in num){
+    print(i);
+  }
 
 }
