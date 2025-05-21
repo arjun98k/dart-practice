@@ -3,4 +3,6 @@ void main(){
   num.add(15);
   num.add(16);
   print(num.contains(15));
+  print(num.reversed);
+
 }
