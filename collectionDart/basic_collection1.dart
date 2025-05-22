@@ -7,6 +7,7 @@ void main(){
   print(num.remove(16));
   for(int i in num){
     print(i);
+    print(i);
   }
 
 }
