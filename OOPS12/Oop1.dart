@@ -9,4 +9,5 @@ class Oops1{
 void main(){
   Oops1 naav = new Oops1("arjun");
   print(naav.name);
+  assert(2 + 4 == 5);
 }
