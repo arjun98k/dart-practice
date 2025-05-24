@@ -16,7 +16,15 @@ class School{
 
 }
 
+class AdityaMath {
+  static double pi = 3.142;
+ static int sq(int x){
+   return x*x;
+ }
+}
+
 void main(){
-  School stud = new School("Arjun", 2024);
-  print('${stud.student_name} ${stud.year}');
+  // School stud = new School("Arjun", 2024);
+  // print('${stud.student_name} ${stud.year}');
+  print(AdityaMath.sq(10));
 }
