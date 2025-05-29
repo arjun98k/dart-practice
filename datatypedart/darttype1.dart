@@ -6,4 +6,5 @@ void main(){
   stdout.write("enter your number ");
   list.forEach(print);
 
+
 }
