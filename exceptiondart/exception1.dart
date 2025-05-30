@@ -5,8 +5,9 @@ void main(){
     int result = 10 ~/ 0;
     print(result);
   }
-  catch (e,stackTrace){
+  catch (d,stackTrace){
     print('cant divide with zero');
+    print(d);
     print(stackTrace);
   }
 
