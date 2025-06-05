@@ -13,4 +13,5 @@ class Arjuninfo extends Arjun{
 void main(){
   Arjuninfo obj = new Arjuninfo();
   obj.whoIs();
+  obj.whoIs();
 }
